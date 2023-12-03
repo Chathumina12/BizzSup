@@ -1,0 +1,194 @@
+*{
+  /* padding: 0;
+  margin: 0;
+  box-sizing: border-box; */
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+body{
+  /* width: 100%; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/bloBg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+   
+
+    
+    
+ 
+} 
+                
+
+h1{
+    text-decoration: none;   
+    font-size:50px;
+    line-height:1.6em;
+    
+    
+}  
+ 
+.boxA{
+  
+    
+    background-position: center; 
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom:40px;
+    margin-bottom: 25px;
+    
+ }
+
+.boxB{     
+   margin-left: 50px;
+   margin-right: 50px;
+   text-align: center;
+   color: white;
+} 
+
+
+.container{
+    width:max;
+    margin:auto;
+}
+
+ .boxA h1{
+    color:white;
+    word-spacing:0.3em;
+    text-align:center; 
+    padding-top: 20px;
+ }
+
+.boxC {   
+  background-position: center;    
+    text-align: center;    
+    margin-right: 25px;
+   
+ }
+
+ .boxC .search input{
+
+  width:500px;
+padding:10px 16px;
+font-size: 18px;
+text-transform: capitalize;
+border-radius: 40px  ;
+border: none;
+
+
+ }
+ .boxC .search input::placeholder{
+   color:rgb(72, 130, 255);
+   
+ }
+
+
+.raw1{
+    width:max;  
+    margin:auto;
+    padding: 0; 
+    padding-left: 20px;  
+    
+       
+}
+
+
+
+.section2 {
+  flex: 1; 
+  background-color: #ffffff33;
+  padding: 20px;
+
+}
+
+
+.blogs{
+    
+    float: left ;
+    width: 300px;
+    height:100%;   
+    padding:11px;    
+    margin:8px 0.1% static; 
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+
+    
+ 
+}
+.blogs p{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  text-align: left;
+}
+
+.blogs h4{
+ font-size: 12px;
+ color: white;
+}
+  
+ .blogs button
+ {
+    background-color:rgb(30, 150, 190) ;
+    color:white;
+    text-decoration: none;
+    width:300px;
+    height:40px;
+   padding : 10px 50px;
+   cursor: pointer;
+   border:none;
+   text-transform: uppercase;
+   font-size: 13px;
+   font-weight: 500;
+  
+ }
+
+ .blogs button:hover{
+    background-color:rgb(2, 117, 224);
+ }
+
+ .blogs:hover{
+  
+    background-color: #8a8a8a70;
+    
+    
+ }
+
+.chatbot{     
+    margin:8px 0.1% static;    
+    float :left;
+        
+}
+.hello{
+  width:550px;
+padding:10px 16px;
+font-size: 18px;
+text-transform: capitalize;
+border-radius: 40px  ;
+border: none;
+}
+.chatbot p{
+
+  left:270px;  
+  border-top: 10px; 
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-weight: 800;
+
+}
+
+#ch{
+  position:absolute;
+  right: 40px; border-bottom:1px; 
+}
+
+#ch2{
+  border-bottom:1px; 
+  cursor: pointer;
+}
